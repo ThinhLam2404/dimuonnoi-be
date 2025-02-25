@@ -10,8 +10,6 @@ const dbState = [
 
 const connection = async () => {
   const options = {
-    user: process.env.DB_USER,
-    pass: process.env.DB_PASSWORD,
     dbName: process.env.DB_NAME,
   };
 

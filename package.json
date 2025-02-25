@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "cross-env NODE_CONFIG_DIR=./src/config nodemon ./src/bin/www"
+    "start": "cross-env NODE_CONFIG_DIR=./src/config node ./src/bin/www"
   },
   "dependencies": {
     "api-query-params": "^5.4.0",
